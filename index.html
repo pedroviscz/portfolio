@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pedro Lucas" />
+    <meta name="description"
+        content="Meu nome é Pedro Lucas, desenvolvo aplicativos mobile e páginas web usando React e React Native, também tenho habilidade com criação e integração de API's." />
+    <meta name="keywords"
+        content="sites, web, app, aplicativos, desenvolvimento, programação, frontend, pedro lucas, ui designer, ux designer, ux, programador, pedroviscz, front-end, designer, ui, pedro, website, portfólio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff2441" />
+    <meta name="copyright" content="Pedro Lucas 2025" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta property="og:title" content="Portfólio // Pedro Lucas" />
+    <meta property="og:description" content="Portfólio // Pedro Lucas" />
+    <title>PL - PortfóLio</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="icon" href="./assets/img/icon.png" type="image/png" />
+    <!-- api de scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="grid-layout">
+            <nav class="header">
+                <img id="imgHeader" src="assets/img/pl_logo.png" alt="PortfóLio" />
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <button type="button" onclick="topoPagina()" class="desapear" id="btnSubir">
+        <img src="assets/icons/up.svg" alt="">
+    </button>
+
+    <!-- sections -->
+    <section>
+        <div class="container delayMediumReveal">
+            <div class="left">
+                <div class="textAbout">
+                    <h1 id="textoInicial">Olá, eu sou o<br><span>Pedro Lucas</span></h1>
+                    <p class="typewriter">
+                        bem vindo ao meu portfólio ;)
+                    </p>
+                </div>
+                <button id="downloadButton">Baixar CV</button>
+            </div>
+            <div class="right">
+                <img class="imgAbout" src="assets/img/fotopedro.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container delaySmallReveal">
+            <div class="left">
+                <div class="groupCardContact">
+                    <a target="_blank" class="cardContact intervalCardReveal" href="https://www.linkedin.com/in/pedrolucasalmeidacunha/">
+                        <img class="iconSvg" src="assets/icons/linkedin.svg" alt="">
+                    </a>
+                    <a target="_blank" class="cardContact intervalCardReveal" href="https://github.com/pedroviscz">
+                        <img class="iconSvg" src="assets/icons/github-outline.svg" alt="">
+                    </a>
+                    <a target="_blank" class="cardContact intervalCardReveal" href="https://www.instagram.com/pedroviscz">
+                        <img class="iconSvg" src="assets/icons/insta.svg" alt="">
+                    </a>
+                    <a target="_blank" class="cardContact intervalCardReveal" href="mailto:pedrolucasalmeida7@hotmail.com">
+                        <img class="iconSvg" src="assets/icons/email.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="aboutMe">
+                    <h1>Sobre mim</h1>
+                    <p>
+                        Full-stack developer
+                    </p>
+                    <p>
+                        Atualmente um desenvolvedor full stack em formação, com uma ênfase mais voltada para o
+                        desenvolvimento front-end.<br><br>Domino linguagens e tecnologias fundamentais para o
+                        desenvolvimento web e
+                        mobile como HTML, CSS, JavaScript, React, React Native, Node.js, SQL (MySQL) e bancos de dados
+                        não-relacionais, permitindo-me criar soluções
+                        digitais completas e dinâmicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <span id="habilidades"></span>
+    </section>
+
+    <section>
+        <h1 id="tituloSection">Habilidades</h1>
+        <p id="instruction"><span>Passe o cursor em cima do card para ler</span></p>
+        <p id="instruction" class="media"><span>Clique no card para ler</span></p>
+        <div class="cardGroupSkills">
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/html.svg" alt="icone do html">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Linguagem para estruturar o conteúdo de páginas web.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/css.svg" alt="icone do css">
+                    </div>
+                    <div class="flip-card-back">
+                        <p> Linguagem para estilizar a apresentação visual de páginas web.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/javascript.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Linguagem para adicionar interatividade e dinamismo às páginas web.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/react.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Biblioteca JavaScript para criar interfaces de usuário interativas e reativas.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/node.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Ambiente de execução JavaScript que permite rodar código JavaScript no lado do servidor, fora
+                            do navegador</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/php.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p> Linguagem de script de servidor usada para desenvolver aplicações web dinâmicas.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/mysql.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Linguagem para manipular e gerenciar bancos de dados relacionais.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="assets/icons/nosql.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Bancos de dados NoSQL armazenam dados de forma flexível e escalável, ideais para grandes
+                            volumes e estruturas variáveis.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <section id="projetos">
+        <h1 id="tituloSection">Projetos</h1>
+        <div class="groupCardProject">
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Métis</p>
+                <p>Front-end de app escolar desenvolvido com Expo e React Native com Typescript.</p>
+                <a target="_blank" href="https://github.com/pedroviscz/metis_frontend/blob/main/README.md">
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    Acessar Projeto
+                </a>
+            </div>
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Jogo Sky Race</p>
+                <p>Jogo didático feito com GML (Game Maker Language).</p>
+                <a target="_blank" href="https://gx.games/pt-br/games/u66p3l/sky-race/">
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    Acessar Projeto
+                </a>
+            </div>
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Coming Soon...</p>
+                <!-- <p>Site para prática do CRUD, feito em PHP, JS, CSS e MySQL.</p>
+                <a href="">
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    Acessar Projeto
+                </a> -->
+            </div>
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Coming Soon...</p>
+                <!-- <p>Site para prática do CRUD, feito em PHP, JS, CSS e MySQL.</p> -->
+                <!-- <a href=""> 
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                            Acessar Projeto 
+                    </a> -->
+            </div>
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Coming Soon...</p>
+                <!-- <p>Site para prática do CRUD, feito em PHP, JS, CSS e MySQL.</p> -->
+                <!-- <a href=""> 
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                            Acessar Projeto 
+                    </a> -->
+            </div>
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Coming Soon...</p>
+                <!-- <p>Site para prática do CRUD, feito em PHP, JS, CSS e MySQL.</p> -->
+                <!-- <a href=""> 
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                        <span class="lineBtn"></span>
+                            Acessar Projeto 
+                    </a> -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>CopyWrite © 2024.<br id="brFooter">Todos os direitos reservados.</p>
+        <div class="footerRight">
+            <p>Powered by</p>
+            <img id="imgFooter" src="assets/img/pl_logo.png" alt="LOGO">
+        </div>
+    </footer>
+    <script type="module" src="src/js/main.js"></script>
+</body>
+<script>
+
+    document.getElementById('downloadButton').addEventListener('click', function () {
+        var pdfUrl = 'src/pdf/curriculo.pdf';
+
+        var link = document.createElement('a');
+        link.href = pdfUrl;
+        link.download = 'curriculo.pdf';
+
+        document.body.appendChild(link);
+
+        link.click();
+
+        document.body.removeChild(link);
+    });
+
+
+    function topoPagina() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    window.onscroll = function () { mostrarBotao() };
+
+    const element = document.getElementById("btnSubir");
+    function mostrarBotao() {
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+            element.classList.add('shw');
+        } else {
+            element.classList.remove('shw');
+        }
+    }
+</script>
+</html>

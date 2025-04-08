@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 639.69 643.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Gradiente_sem_nome_160);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <linearGradient id="Gradiente_sem_nome_160" data-name="Gradiente sem nome 160" x1="319.85" y1="643.71" x2="319.85" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111110"/>
+      <stop offset=".13" stop-color="#141110"/>
+      <stop offset=".23" stop-color="#1e1313"/>
+      <stop offset=".33" stop-color="#2f1718"/>
+      <stop offset=".42" stop-color="#471c1f"/>
+      <stop offset=".5" stop-color="#662228"/>
+      <stop offset=".59" stop-color="#8c2a33"/>
+      <stop offset=".67" stop-color="#b83340"/>
+      <stop offset=".68" stop-color="#c23643"/>
+      <stop offset=".82" stop-color="#cf3344"/>
+      <stop offset="1" stop-color="#e73047"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <path class="cls-1" d="M639.69,316.71c0,183.75-105.87,326.62-291.04,327-188.29.38-527.87-203.33-232.83-423.04C264.91,109.65,191.43,0,376.6,0s263.1,132.95,263.1,316.71Z"/>
+    </clipPath>
+  </defs>
+  <path class="cls-2" d="M639.69,316.71c0,183.75-105.87,326.62-291.04,327-188.29.38-527.87-203.33-232.83-423.04C264.91,109.65,191.43,0,376.6,0s263.1,132.95,263.1,316.71Z"/>
+  <g class="cls-3">
+    <image width="681" height="604" transform="translate(86.37 190.71) scale(.75)" xlink:href="pessoal2.png"/>
+  </g>
+</svg>
