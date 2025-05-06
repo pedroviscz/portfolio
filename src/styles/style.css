@@ -327,8 +327,8 @@ header .grid-layout nav .nav-list li a:hover {
     justify-content: center;
     grid-template-columns: repeat(3, 22%);
     grid-auto-rows: 13vw;
-    column-gap: 2%;
-    row-gap: 5%;
+    column-gap: 15%;
+    row-gap: 10%;
 }
 
 .groupCardProject {
