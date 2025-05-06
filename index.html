@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Pedro Lucas" />
     <meta name="description"
-        content="Meu nome é Pedro Lucas, desenvolvo aplicativos mobile e páginas web usando React e React Native, também tenho habilidade com criação e integração de API's." />
+        content="Meu nome é Pedro Lucas, desenvolvo aplicativos mobile usando React Native, também tenho habilidade com integração de API's." />
     <meta name="keywords"
-        content="sites, web, app, aplicativos, desenvolvimento, programação, frontend, pedro lucas, ui designer, ux designer, ux, programador, pedroviscz, front-end, designer, ui, pedro, website, portfólio" />
+        content="sites, web, app, aplicativos, desenvolvimento, programação, frontend, pedro lucas, programador, pedroviscz, frontend, pedro, website, portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ff2441" />
     <meta name="copyright" content="Pedro Lucas 2025" />
@@ -17,7 +17,7 @@
     <meta property="og:description" content="Portfólio // Pedro Lucas" />
     <title>PL - PortfóLio</title>
     <link rel="stylesheet" href="./src/styles/style.css">
-    <link rel="icon" href="./assets/img/icon.png" type="image/png" />
+    <link rel="icon" href="././src/assets/img/icon.png" type="image/png" />
     <!-- api de scroll -->
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
@@ -27,7 +27,7 @@
     <header>
         <div class="grid-layout">
             <nav class="header">
-                <img id="imgHeader" src="assets/img/pl_logo.png" alt="PortfóLio" />
+                <img id="imgHeader" src="./src/assets/img/pl_logo.png" alt="PortfóLio" />
                 <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -43,7 +43,7 @@
     </header>
 
     <button type="button" onclick="topoPagina()" class="desapear" id="btnSubir">
-        <img src="assets/icons/up.svg" alt="">
+        <img src="./src/assets/svg/up.svg" alt="">
     </button>
 
     <!-- sections -->
@@ -53,13 +53,13 @@
                 <div class="textAbout">
                     <h1 id="textoInicial">Olá, eu sou o<br><span>Pedro Lucas</span></h1>
                     <p class="typewriter">
-                        bem vindo ao meu portfólio ;)
+                        bem-vindo ao meu portfólio ;)
                     </p>
                 </div>
                 <button id="downloadButton">Baixar CV</button>
             </div>
             <div class="right">
-                <img class="imgAbout" src="assets/img/fotopedro.png" alt="">
+                <img class="imgAbout" src="./src/assets/img/fotopedro.png" alt="">
             </div>
         </div>
     </section>
@@ -69,16 +69,16 @@
             <div class="left">
                 <div class="groupCardContact">
                     <a target="_blank" class="cardContact intervalCardReveal" href="https://www.linkedin.com/in/pedrolucasalmeidacunha/">
-                        <img class="iconSvg" src="assets/icons/linkedin.svg" alt="">
+                        <img class="iconSvg" src="./src/assets/svg/linkedin.svg" alt="">
                     </a>
                     <a target="_blank" class="cardContact intervalCardReveal" href="https://github.com/pedroviscz">
-                        <img class="iconSvg" src="assets/icons/github-outline.svg" alt="">
+                        <img class="iconSvg" src="./src/assets/svg/github-outline.svg" alt="">
                     </a>
                     <a target="_blank" class="cardContact intervalCardReveal" href="https://www.instagram.com/pedroviscz">
-                        <img class="iconSvg" src="assets/icons/insta.svg" alt="">
+                        <img class="iconSvg" src="./src/assets/svg/insta.svg" alt="">
                     </a>
                     <a target="_blank" class="cardContact intervalCardReveal" href="mailto:pedrolucasalmeida7@hotmail.com">
-                        <img class="iconSvg" src="assets/icons/email.svg" alt="">
+                        <img class="iconSvg" src="./src/assets/svg/email.svg" alt="">
                     </a>
                 </div>
             </div>
@@ -86,22 +86,19 @@
                 <div class="aboutMe">
                     <h1>Sobre mim</h1>
                     <p>
-                        Full-stack developer
+                        Desenvolvedor frontend
                     </p>
                     <p>
-                        Atualmente um desenvolvedor full stack em formação, com uma ênfase mais voltada para o
-                        desenvolvimento front-end.<br><br>Domino linguagens e tecnologias fundamentais para o
-                        desenvolvimento web e
-                        mobile como HTML, CSS, JavaScript, React, React Native, Node.js, SQL (MySQL) e bancos de dados
-                        não-relacionais, permitindo-me criar soluções
-                        digitais completas e dinâmicas.
-                    </p>
+                        Sou um desenvolvedor full-stack em formação, com maior domínio na área de desenvolvimento frontend.<br><br>
+                        Possuo proficiência em linguagens, tecnologias e frameworks fundamentais para o desenvolvimento web e mobile, como 
+                        <b>React Native, JavaScript, TypeScript, Expo, HTML e CSS</b>.
+                    </p>                    
                 </div>
             </div>
         </div>
         <span id="habilidades"></span>
     </section>
-
+    
     <section>
         <h1 id="tituloSection">Habilidades</h1>
         <p id="instruction"><span>Passe o cursor em cima do card para ler</span></p>
@@ -110,37 +107,7 @@
             <article class="intervalCardReveal">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/html.svg" alt="icone do html">
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Linguagem para estruturar o conteúdo de páginas web.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="intervalCardReveal">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/css.svg" alt="icone do css">
-                    </div>
-                    <div class="flip-card-back">
-                        <p> Linguagem para estilizar a apresentação visual de páginas web.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="intervalCardReveal">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/javascript.svg" alt="icone do ">
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Linguagem para adicionar interatividade e dinamismo às páginas web.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="intervalCardReveal">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/react.svg" alt="icone do ">
+                        <img class="iconSvg" src="./src/assets/svg/react.svg" alt="icone do ">
                     </div>
                     <div class="flip-card-back">
                         <p>Biblioteca JavaScript para criar interfaces de usuário interativas e reativas.</p>
@@ -150,7 +117,27 @@
             <article class="intervalCardReveal">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/node.svg" alt="icone do ">
+                        <img class="iconSvg" src="./src/assets/svg/javascript.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Linguagem para adicionar interatividade e dinamismo às páginas web.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="./src/assets/svg/typescript.svg" alt="icone do ">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Linguagem baseada em JavaScript com tipagem estática para maior segurança e escalabilidade.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="intervalCardReveal">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="iconSvg" src="./src/assets/svg/node.svg" alt="icone do ">
                     </div>
                     <div class="flip-card-back">
                         <p>Ambiente de execução JavaScript que permite rodar código JavaScript no lado do servidor, fora
@@ -161,31 +148,20 @@
             <article class="intervalCardReveal">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/php.svg" alt="icone do ">
+                        <img class="iconSvg" src="./src/assets/svg/html.svg" alt="icone do html">
                     </div>
                     <div class="flip-card-back">
-                        <p> Linguagem de script de servidor usada para desenvolver aplicações web dinâmicas.</p>
+                        <p>Linguagem para estruturar o conteúdo de páginas web.</p>
                     </div>
                 </div>
             </article>
             <article class="intervalCardReveal">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/mysql.svg" alt="icone do ">
+                        <img class="iconSvg" src="./src/assets/svg/css.svg" alt="icone do css">
                     </div>
                     <div class="flip-card-back">
-                        <p>Linguagem para manipular e gerenciar bancos de dados relacionais.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="intervalCardReveal">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img class="iconSvg" src="assets/icons/nosql.svg" alt="icone do ">
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Bancos de dados NoSQL armazenam dados de forma flexível e escalável, ideais para grandes
-                            volumes e estruturas variáveis.</p>
+                        <p> Linguagem para estilizar a apresentação visual de páginas web.</p>
                     </div>
                 </div>
             </article>
@@ -198,8 +174,19 @@
         <div class="groupCardProject">
             <div class="cardProject intervalCardReveal">
                 <p id="tituloCardProject">Métis</p>
-                <p>Front-end de app escolar desenvolvido com Expo e React Native com Typescript.</p>
+                <p>Frontend de app escolar desenvolvido com React Native + TypeScript.</p>
                 <a target="_blank" href="https://github.com/pedroviscz/metis_frontend/blob/main/README.md">
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    <span class="lineBtn"></span>
+                    Acessar Projeto
+                </a>
+            </div>
+            <div class="cardProject intervalCardReveal">
+                <p id="tituloCardProject">Home Page Vinharia Agnello</p>
+                <p>Projeto acadêmico frontend.</p>
+                <a target="_blank" href="https://espv1.github.io/cp-1-frontend-design-vinheria-agnello/">
                     <span class="lineBtn"></span>
                     <span class="lineBtn"></span>
                     <span class="lineBtn"></span>
@@ -217,17 +204,6 @@
                     <span class="lineBtn"></span>
                     Acessar Projeto
                 </a>
-            </div>
-            <div class="cardProject intervalCardReveal">
-                <p id="tituloCardProject">Coming Soon...</p>
-                <!-- <p>Site para prática do CRUD, feito em PHP, JS, CSS e MySQL.</p>
-                <a href="">
-                    <span class="lineBtn"></span>
-                    <span class="lineBtn"></span>
-                    <span class="lineBtn"></span>
-                    <span class="lineBtn"></span>
-                    Acessar Projeto
-                </a> -->
             </div>
             <div class="cardProject intervalCardReveal">
                 <p id="tituloCardProject">Coming Soon...</p>
@@ -268,7 +244,7 @@
         <p>CopyWrite © 2024.<br id="brFooter">Todos os direitos reservados.</p>
         <div class="footerRight">
             <p>Powered by</p>
-            <img id="imgFooter" src="assets/img/pl_logo.png" alt="LOGO">
+            <img id="imgFooter" src="./src/assets/img/pl_logo.png" alt="LOGO">
         </div>
     </footer>
     <script type="module" src="src/js/main.js"></script>

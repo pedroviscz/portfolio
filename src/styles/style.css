@@ -323,10 +323,10 @@ header .grid-layout nav .nav-list li a:hover {
 .cardGroupSkills {
     width: 100%;
     max-width: 100%;
-    justify-content: center;
     display: grid;
-    grid-template-columns: repeat(4, 22%);
-    grid-template-rows: repeat(2, 13vw);
+    justify-content: center;
+    grid-template-columns: repeat(3, 22%);
+    grid-auto-rows: 13vw;
     column-gap: 2%;
     row-gap: 5%;
 }
@@ -356,14 +356,13 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 .cardProject:nth-of-type(2){
+    border: 1px solid #91234d;
+}
+
+.cardProject:nth-of-type(3){
     border: 1px solid var(--g);
 }
 
-/* .cardProject:nth-of-type(3){
-    border: 1px solid #9b069b;
-} */
-
-.cardProject:nth-of-type(3),
 .cardProject:nth-of-type(4),
 .cardProject:nth-of-type(5),
 .cardProject:nth-of-type(6){
@@ -372,7 +371,6 @@ header .grid-layout nav .nav-list li a:hover {
     transition: .5s;
 }
 
-.cardProject:nth-of-type(3):hover,
 .cardProject:nth-of-type(4):hover,
 .cardProject:nth-of-type(5):hover,
 .cardProject:nth-of-type(6):hover{
@@ -411,11 +409,11 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 .cardProject:nth-of-type(2) a:hover{
-    background-color: #88ff19a4;
+    background-color: #91234d;
     /* transform: scale(0.98); */
 }
 .cardProject:nth-of-type(3) a:hover{
-    background-color: #9b069b;
+    background-color: #88ff19a4;
     /* transform: scale(0.98); */
 }
 
@@ -433,29 +431,29 @@ header .grid-layout nav .nav-list li a:hover {
 }
 
 .cardProject:nth-of-type(2) a span:first-of-type{
-    background: linear-gradient(to right, transparent, var(--g));
+    background: linear-gradient(to right, transparent, #91234d);
 }
 .cardProject:nth-of-type(2) a span:nth-of-type(2){
-    background: linear-gradient(to top, transparent, var(--g));
+    background: linear-gradient(to top, transparent, #91234d);
 }
 .cardProject:nth-of-type(2) a span:nth-of-type(3){
-    background: linear-gradient(to left, transparent, var(--g));
+    background: linear-gradient(to left, transparent, #91234d);
 }
 .cardProject:nth-of-type(2) a span:last-of-type{
-    background: linear-gradient(to bottom, transparent, var(--g));
+    background: linear-gradient(to bottom, transparent, #91234d);
 }
 
 .cardProject:nth-of-type(3) a span:first-of-type{
-    background: linear-gradient(to right, transparent, var(--p));
+    background: linear-gradient(to right, transparent, var(--g));
 }
 .cardProject:nth-of-type(3) a span:nth-of-type(2){
-    background: linear-gradient(to top, transparent, var(--p));
+    background: linear-gradient(to top, transparent, var(--g));
 }
 .cardProject:nth-of-type(3) a span:nth-of-type(3){
-    background: linear-gradient(to left, transparent, var(--p));
+    background: linear-gradient(to left, transparent, var(--g));
 }
 .cardProject:nth-of-type(3) a span:last-of-type{
-    background: linear-gradient(to bottom, transparent, var(--p));
+    background: linear-gradient(to bottom, transparent, var(--g));
 }
 
 .cardProject a span:first-of-type {
@@ -769,7 +767,7 @@ section:nth-of-type(2) .container .right .aboutMe h1{
 }
 
 .aboutMe p:nth-of-type(2) {
-    color: #b9b9b9;
+    color: #dbdada;
     font-size: 100%;
     font-weight: 300;
     line-height: 1.4em;
